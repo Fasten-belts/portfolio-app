@@ -20,12 +20,12 @@ export const NavRow = styled.div`
 
 export const Logo = styled(NavLink)`
   padding: 10px;
-  background-image: linear-gradient(-180deg, #a9a9a9 0%, #404040 100%);
+  /* background-image: linear-gradient(-180deg, #a9a9a9 0%, #404040 100%); */
   border-radius: 0.5rem;
   box-sizing: border-box;
   margin-right: auto;
   color: var(--nav-text);
-  font-size: 24px;
+  font-size: 30px;
   font-family: 'Poppins', sans-serif;
 `;
 

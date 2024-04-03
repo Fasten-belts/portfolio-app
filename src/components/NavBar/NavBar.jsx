@@ -1,4 +1,4 @@
-import DarkModeBtn from 'components/DarkModeBtn/DarkModeBtn';
+// import DarkModeBtn from 'components/DarkModeBtn/DarkModeBtn';
 import {
   Logo,
   LogoSpan,
@@ -15,9 +15,9 @@ function NavBar() {
       <div className="container">
         <NavRow className="nav-row">
           <Logo to="/" className="logo">
-            <LogoSpan>Frontend</LogoSpan> portfolio
+            <LogoSpan>Fullstack</LogoSpan> portfolio
           </Logo>
-          <DarkModeBtn />
+          {/* <DarkModeBtn /> */}
           <NavList className="nav-list">
             <li className="nav-list__item">
               <NavListLink

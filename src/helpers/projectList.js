@@ -1,6 +1,7 @@
 import project01 from '../img/projects/project-web-studio.png';
 import project02 from '../img/projects/project-thewatchspot.png';
 import project03 from '../img/projects/project-bookshelf.png';
+import project04 from '../img/projects/project-water-tracker.png';
 
 export const projects = [
   {
@@ -32,5 +33,17 @@ export const projects = [
     gitPage: 'https://anetta999.github.io/team-project-group-3-JS/',
     description:
       'The book API project, written in JavaScript, enables users to view and add selected books to their cart. Key features include: Responsive Layout: Ensuring an optimal user experience across devices. Header: Featuring a logo, theme switcher, and burger menu for easy navigation. Homepage: Displaying book categories, charitable foundations, and a list of books. Modal Windows: Providing detailed book information with links to purchase resources. Shopping List: Allowing users to store books locally. Loader: Enhancing user experience with asynchronous request handling. Scroll-Up Button: Ensuring user convenience. This version offers essential website functionality, with plans for future enhancements like pagination and Firebase authorization functionality. Users can add books to their shopping list. Additional features encompass authorization, pagination, a loader, and a scroll-up button.',
+  },
+  {
+    id: '4',
+    image: project04,
+    title: 'Tracker of Water - Group Project',
+    skills:
+      'Node.js · Express.js · MongoDB · Mongoose ODM · Swagger API · CORS · Google oAuth 2.0 · JSON Web Token (JWT) · Cloudinary',
+    gitCode: 'https://github.com/Fasten-belts/water-tracker',
+    backCode: 'https://github.com/Fasten-belts/WaterTracker_backend',
+    gitPage: 'https://water-tracker-app.netlify.app/',
+    description:
+      'The WaterTracker Backend is a Node.js server component for the WaterTracker application, available on GitHub. This application enables users to track their daily water consumption. Key features include user registration and login using a password or Google Auth, password recovery via email confirmation, user authorization and logout, editing user data (avatar, name, email, password), deleting a user account and their water consumption data, modifying the calculation of the daily water consumption rate, adding, updating, and deleting records of consumed water, and calculating the amount of water for the current day or a selected month. Technologies and packages used in development include Node.js, Express.js, MongoDB, Mongoose, JWT (JSON Web Tokens) for authentication, Bcrypt for password hashing, Dotenv for environment variable management, CORS for access control, Nodemon for automatic server restarts, Axios for HTTP requests, Cloudinary for image handling, Cross-env for setting environment variables across different OS, Joi for data validation, Morgan for request logging, Multer for file handling, Nanoid for generating unique identifiers, Nodemailer for email handling, Query-string for query string management, and Swagger-ui-express for API documentation.',
   },
 ];

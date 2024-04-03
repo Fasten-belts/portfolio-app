@@ -10,13 +10,16 @@ function Home() {
             <li className="content-list__item">
               <h2 className="title-2">Frontend</h2>
               <p>
-                JavaScript, TypeScript, ReactJS, Redux, HTML, CSS, NPM,
-                StyledComponents
+                HTML5, CSS, JavaScript, TypeScript, React, Redux,
+                Responsive/Adaptive Design, GIT
               </p>
             </li>
             <li className="content-list__item">
               <h2 className="title-2">Backend</h2>
-              <p>NodeJS</p>
+              <p>
+                Node.js, MongoDB, Mongoose, Express, Docker, WebSockets, CRUD,
+                REST API, GIT
+              </p>
             </li>
           </ul>
         </div>

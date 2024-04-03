@@ -4,7 +4,7 @@ import { projects } from 'helpers/projectList';
 
 function Project() {
   const { id } = useParams();
-  const { title, image, skills, gitCode, gitPage, description } =
+  const { title, image, skills, gitCode, gitPage, backCode, description } =
     projects[id - 1];
   return (
     <main className="section">
@@ -21,6 +21,10 @@ function Project() {
           <a href={gitCode} className="btn-outline">
             <img src={gitHub} alt="" />
             GitHub Repo
+          </a>
+          <a href={backCode} className="btn-outline">
+            <img src={gitHub} alt="" />
+            GitHub Repo BackEnd
           </a>
         </div>
       </div>
