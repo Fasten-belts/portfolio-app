@@ -6,6 +6,7 @@ function Project() {
   const { id } = useParams();
   const { title, image, skills, gitCode, gitPage, backCode, description } =
     projects[id - 1];
+
   return (
     <main className="section">
       <div className="container">
@@ -22,13 +23,16 @@ function Project() {
             <img src={gitHub} alt="" />
             GitHub Repo
           </a>
-          <a href={backCode} className="btn-outline">
-            <img src={gitHub} alt="" />
-            GitHub Repo BackEnd
-          </a>
+          {backCode && (
+            <a href={backCode} className="btn-outline">
+              <img src={gitHub} alt="" />
+              GitHub Repo BackEnd
+            </a>
+          )}
         </div>
       </div>
     </main>
   );
 }
+
 export default Project;
