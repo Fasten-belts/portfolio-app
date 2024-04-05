@@ -384,9 +384,9 @@ body {
   box-shadow: var(--box-shadow);
   border-radius: 10px;
 }
-.project-details:hover {
+/* .project-details:hover {
   transform: scale(1.1);
-}
+} */
 
 .project-details__desc {
   margin-bottom: 30px;
